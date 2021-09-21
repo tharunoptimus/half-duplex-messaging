@@ -1,0 +1,24 @@
+{
+	"name": "half-duplex-messaging",
+	"version": "1.0.0",
+	"description": "Half Duplex messaging with TCP/IP POST Requests",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"server": "node server.js",
+		"client": "node client.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tharunoptimus/half-duplex-messaging.git"
+	},
+	"keywords": [
+		"half-duplex"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"node-fetch": "^3.0.0"
+	}
+}
